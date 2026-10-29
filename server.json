@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/ukraine-public-spending",
   "title": "Ukraine Public Spending",
   "description": "Ukraine public spending MCP — State Treasury payment transactions (keyless).",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/ukraine-public-spending",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-ukraine-public-spending",
