@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-ukraine-public-spending",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Ukraine public spending MCP — State Treasury payment transactions (keyless).",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "ukraine-public-spending",
     "gatewaySlug": "ukraine-public-spending",
-    "sourceHash": "v1-89372a45e14b140800ad9593026f9552edf8fc1add69be0249f76c313dbac225",
-    "sourceCommit": "98853f34516646cb7c4c1460f09249b262c0269e"
+    "sourceHash": "v1-64a21d82e684c9360df03f4594149fcc1cd23898f91ab3b598d0b9c0740d54fb",
+    "sourceCommit": "ca52e7ed1e1ccad897c2da1b0fa105edc0bc3b2e"
   }
 }

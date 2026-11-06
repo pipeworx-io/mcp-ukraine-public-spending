@@ -2,7 +2,7 @@
 
 Ukrainian State Treasury payment transactions from spending.gov.ua: who a public body paid, which public bodies paid a supplier, how much and for what, by EDRPOU code. Links a supplier's payments to its ProZorro tenders as labelled candidates.
 
-Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1857+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
+Part of [Pipeworx](https://pipeworx.io) — an MCP gateway connecting AI agents to 1866+ live data sources. This is an independent, unofficial integration — not affiliated with, endorsed by, or published by the upstream provider.
 
 ## Tools
 
@@ -17,7 +17,7 @@ Keyless.
 ## Data sources
 
 - <https://api.spending.gov.ua/api/v2/api/transactions/>: State Treasury Service of Ukraine (ДКСУ) payment transactions, the API behind spending.gov.ua.
-- <https://prozorro.gov.ua/api/search/tenders> (POST): ProZorro's public tender search index, used by `ua_spend_prozorro_link`.
+- ProZorro (POST): ProZorro's public tender search index, used by `ua_spend_prozorro_link`.
 
 Things measured live on 2026-10-08:
 
@@ -73,7 +73,7 @@ directly, instead of just this one's:
 }
 ```
 
-Both URLs reach the same gateway and the same 1857+ data sources. The
+Both URLs reach the same gateway and the same 1866+ data sources. The
 only difference is which pack's tools are listed **directly**; `ask_pipeworx`
 reaches all of them from either one.
 
